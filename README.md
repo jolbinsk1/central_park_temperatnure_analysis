@@ -19,24 +19,16 @@ The temperature data is sourced from the National Weather Service - New York, NY
 ## Usage
 
 1) Open the Jupyter Notebook:
-- Once Jupyter is running, open the file in your browser. Each step of the analysis, from downloading the data to forecasting future temperatures, is documented in the notebook.
+    - Once Jupyter is running, open the file in your browser. Each step of the analysis, from downloading the data to forecasting future temperatures, is documented in the notebook.
 2) Run the Cells:
-- The cells can be executed sequentially to follow along with the analysis.
-- The notebook includes various time series analyses, such as seasonal decomposition, autocorrelation plots, and different forecasting models.
+    - The cells can be executed sequentially to follow along with the analysis.
+    - The notebook includes various time series analyses, such as seasonal decomposition, autocorrelation plots, and different forecasting models.
 3) Modify Parameters:
-- If you'd like to experiment with different models or configurations, feel free to modify the relevant cells in the notebook and re-run them.
+    - If you'd like to experiment with different models or configurations, feel free to modify the relevant cells in the notebook and re-run them.
  
 ## Results
 
 - Seasonal Decomposition: Displays a strong seasonal pattern in Central Park’s temperature data.
-- Triple Exponential Smoothing: Provides a better fit than double smoothing for seasonal data.
+- Triple Exponential Smoothing: Provides a better fit than double smoothing and EWMA for seasonal data.
 - SARIMA Model: Achieves a lower RMSE (Root Mean Square Error) compared to other models and is used for forecasting future temperatures.
 
-Future Enhancements
-
-Potential future improvements include:
-
-Automating hyperparameter tuning for SARIMA or other forecasting models.
-Adding external factors such as humidity or pressure to improve forecast accuracy.
-Exploring machine learning models, such as LSTM or Prophet, for more robust predictions.
-Enhancing visualizations with interactive plots using libraries like Plotly.
